@@ -67,8 +67,6 @@ fetch('config.json')
     console.error('Ошибка загрузки JSON:', error)
   })
 
-loadContent('hiWorld', 'lorem ipsum')
-
 modalWindowBtn.addEventListener('click', modalShowOrHide)
 
 modal.addEventListener('click', (e) => {
